@@ -1,0 +1,28 @@
+{
+  "name": "token-nuker",
+  "version": "1.0.0",
+  "description": "For nuking discord user tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "nexe -r src/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endlessXD/Discord-Token-Nuker"
+  },
+  "author": "endless",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/endlessXD/Discord-Token-Nuker/issues"
+  },
+  "homepage": "https://github.com/endlessXD/Discord-Token-Nuker#readme",
+  "devDependencies": {
+    "nexe": "^4.0.0-beta.18"
+  }
+}
